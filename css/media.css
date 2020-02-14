@@ -1,0 +1,148 @@
+@media (max-width: 1200px) {
+  .gallery__row {
+    flex-wrap: wrap;
+  }
+  .gallery__item {
+    width: 50%;
+  }
+  .gallery__item5_width {
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  /* Header section */
+  .header__text h2 {
+    font-size: 45px;
+  }
+  .header__text {
+    width: 300px;
+  }
+  .header__image img {
+    width: 400px;
+  }
+
+  .reasons__inner,
+  .plans__inner,
+  .details__inner,
+  .footer__inner-top {
+    flex-wrap: wrap;
+  }
+  .gallery {
+    padding-bottom: 45px;
+  }
+  .gallery__item {
+    padding-right: 15px;
+  }
+
+  .details__item {
+    width: 50%;
+  }
+
+  .reasons,
+  .details,
+  .plans,
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .reasons__item + .reasons__item,
+  .plans__item + .plans__item,
+  .details__item + .details__item {
+    margin-left: 0px;
+  }
+
+  .reasons__item {
+    max-width: 100%;
+  }
+  .plans__item,
+  .contact-text,
+  .contact-form {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer-links {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 650px) {
+  h3 {
+    line-height: 30px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .header__image img {
+    width: 300px;
+  }
+  .header__text h2 {
+    font-size: 35px;
+  }
+  .start-section {
+    padding-bottom: 40px;
+  }
+  .start-text__wrapper {
+    flex-wrap: wrap;
+  }
+  .start__right-column {
+    padding-top: 15px;
+    margin-left: 0;
+  }
+  .start-text__wrapper {
+    margin-top: 60px;
+  }
+  .container__float {
+    max-width: 100%;
+  }
+  .gallery__item {
+    max-width: 100%;
+    width: auto;
+    padding: 30px 16px 0;
+  }
+  .middle-hero .link,
+  .gallery__item .link {
+    padding: 10px 15px 10px 0;
+  }
+  .gallery__item5 p {
+    width: auto;
+  }
+  .details__item {
+    width: 100%;
+    max-width: 100%;
+  }
+  .details__title {
+    margin-bottom: 25px;
+  }
+
+  .hero__head {
+    font-size: 43px;
+    line-height: 1;
+  }
+  .footer__links {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer .link {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+  }
+  .footer__links div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .reasons__head {
+    margin-bottom: 26px;
+  }
+  .gallery .container {
+    padding: 0;
+  }
+  .plans__item {
+    padding: 30px 15px 0px;
+  }
+}
